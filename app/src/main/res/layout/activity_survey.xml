@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:padding="3dp"
+    tools:context=".Survey">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Q1"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentTop="true"
+            android:text="1. Please enter your age:"
+            android:textSize="20sp"
+            android:textColor="#F5F5F5"
+            android:layout_marginTop="5dp"
+            android:gravity="center" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText1"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/Q1"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Q2"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/editText1"
+            android:text="2. Would you describe your background as technical or non-technical?"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#F5F5F5" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/Q2"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Q3"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/editText2"
+            android:text="3. Are you familiar with the term phishing?"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#F5F5F5" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText3"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/Q3"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Q4"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/editText3"
+            android:text="4. Have you previously ever fallen for an email phishing scam?"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#F5F5F5" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText4"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/Q4"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Q5"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/editText4"
+            android:text="5. Have you previously ever used phishing training tools? If so, what tools?"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#F5F5F5" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText5"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/Q5"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/Q6"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/editText5"
+            android:text="6. Have you previously ever used phishing educational materials? If so, from where?"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:textColor="#F5F5F5" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText6"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/Q6"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:gravity="center_horizontal"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editText6"
+            android:text="Submit"
+            android:id="@+id/SubmitSurvey"
+            android:layout_centerInParent="true"
+            android:layout_margin="1dp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/SubmitSurvey"
+            android:text="Home"
+            android:id="@+id/SurveyHome"
+            android:layout_centerInParent="true" />
+
+    </RelativeLayout>
+
+</ScrollView>

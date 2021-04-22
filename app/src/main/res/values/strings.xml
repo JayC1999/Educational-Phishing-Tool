@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">EducationalPhishingTool</string>
+    <string name="Purpose">The purpose of this project is to analyse the effectiveness of online educational tools while attempting to determine whether a users characteristics will have an effect on their ability to detect phishing attempts. The steps below outline your tasks:</string>
+    <string name="Survey_Overview">Step 1 = Please start by completing every question within the survey and clicking submit.</string>
+    <string name="Pretest_Overview">Step 2 = Next, move onto the pre-test where you will be met with a variety of email scenarios, you will have to use your current knowledge on phishing to determine whether the scenarios presented are phishing attempts. Depending on your score, you will be given a tailored phishing educational poster to read.</string>
+    <string name="Posttest_Overview">Step 3 = Finally, take the post-test which will work similarly to the pre-test. Your task is to use the information previously provided to help you establish whether the scenarios presented are phishing attempts.</string>
+    <string name="Consent">All survey answers and test results are anonymous, the data will not be used outside the scope of this research. Please click the button below if you consent to participating in this study.</string>
+
+</resources>

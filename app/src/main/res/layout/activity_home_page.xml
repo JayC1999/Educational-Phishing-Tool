@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:padding="3dp"
+    tools:context=".HomePage">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:src="@drawable/app_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="30dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Info"
+        android:layout_centerHorizontal="true"
+        android:text="Please complete the three tasks below:"
+        android:gravity="center"
+        android:layout_below="@+id/logo"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:layout_marginBottom="15dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/Button_Survey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="1. Survey"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/Info"
+        android:layout_marginBottom="15dp"
+        />
+
+    <Button
+        android:id="@+id/Button_Pretest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="2. Pre-test"
+        android:layout_below="@id/Button_Survey"
+        android:layout_marginBottom="15dp"
+        />
+
+    <Button
+        android:id="@+id/Button_Posttest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="3. Post-test"
+        android:layout_below="@id/Button_Pretest"
+        />
+
+</RelativeLayout>

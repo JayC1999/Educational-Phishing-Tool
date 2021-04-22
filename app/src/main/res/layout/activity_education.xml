@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:padding="3dp"
+    tools:context=".Education">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/Pinch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:textColor="@android:color/white"
+            android:text="Pinch the image to zoom"
+            android:gravity="center"
+            android:layout_marginTop="60sp"
+            android:textAlignment="center" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/emailEducation"
+            android:src="@drawable/email_high"
+            android:layout_width="wrap_content"
+            android:layout_height="430dp"
+            android:scaleType="fitCenter"
+            android:layout_below="@id/Pinch"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true" />
+
+        <Button
+            android:id="@+id/homeButton"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_below="@+id/emailEducation"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="Home" />
+
+    </RelativeLayout>
+</ScrollView>
